@@ -1,5 +1,5 @@
 for _, modell in pairs(workspace:GetDescendants()) do
-    local humanoid = modell:FindFirstChild("internal humanoid")
+    local humanoid = modell:FindFirstChild("humanoid")
     if humanoid and humanoid:IsA("Humanoid") then
         local highlight = Instance.new("Highlight")
         highlight.Adornee = modell
